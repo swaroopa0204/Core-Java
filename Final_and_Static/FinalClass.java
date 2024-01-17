@@ -1,4 +1,4 @@
-package Assignment5;
+package Final_and_Static;
 
 final class FinalClass {
         // Final variable
