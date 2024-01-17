@@ -1,4 +1,4 @@
-package Assignment5;
+package Final_and_Static;
 
 public class FinalAccessingClass {
     public static void main(String[] args) {

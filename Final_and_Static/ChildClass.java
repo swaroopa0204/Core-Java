@@ -1,4 +1,4 @@
-package Assignment5;
+package Final_and_Static;
 
 public class ChildClass extends ParentClass{
     private int childVariable;
