@@ -35,23 +35,6 @@ public class Movie {
         return collectionAmount;
     }
 
-    // Setters
-
-    public void setYearReleased(int yearReleased) {
-        this.yearReleased = yearReleased;
-    }
-
-    public void setRating(double rating) {
-        this.rating = rating;
-    }
-
-    public void setBudget(double budget) {
-        this.budget = budget;
-    }
-
-    public void setCollectionAmount(double collectionAmount) {
-        this.collectionAmount = collectionAmount;
-    }
 
     // Comparator for sorting by rating and profit
     public static Comparator<Movie> ratingAndProfitComparator = Comparator
