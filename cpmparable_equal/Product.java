@@ -33,7 +33,6 @@ public class Product implements Comparable<Product> {
         // Creating products
         Product product1 = new Product(1, 0.5, 25.99);
         Product product2 = new Product(2, 0.8, 19.99);
-        Product product3 = new Product(3, 0.3, 29.99);
 
         // Comparing products based on price
         int result = product1.compareTo(product2);

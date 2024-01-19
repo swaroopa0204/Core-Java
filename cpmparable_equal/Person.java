@@ -54,7 +54,6 @@ public class Person {
     // Override equals method to match based on ssn
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
         Person person = (Person) obj;
         return Objects.equals(ssn, person.ssn);
