@@ -13,8 +13,6 @@ public class Product implements Comparable<Product> {
         this.price = price;
     }
 
-    // Getters and Setters (omitted for brevity)
-
     // Implementing compareTo method from Comparable interface
     @Override
     public int compareTo(Product otherProduct) {

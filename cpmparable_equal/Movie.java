@@ -35,7 +35,6 @@ public class Movie {
         return collectionAmount;
     }
 
-    // Setters
 
     // Comparator for sorting by rating and profit
     public static Comparator<Movie> ratingAndProfitComparator = Comparator
